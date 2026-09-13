@@ -1,0 +1,4 @@
+# Downloaded NW.js archives / extracted runtimes
+*.zip
+*.zip.part
+nwjs-*/
