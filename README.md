@@ -1,4 +1,4 @@
-# Winter HDR
+# Winter Memories HDR
 
 给 Steam 版《冬日狂想曲 / Winter Memories》（RPG Maker MV 1.6.1）加上真正的 HDR 输出。
 

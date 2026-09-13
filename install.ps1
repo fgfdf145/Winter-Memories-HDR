@@ -103,7 +103,7 @@ if (Test-Path $backup) {
 if ((Test-ModernRuntime) -and -not $UpdateRuntime) {
     Write-Step 'Modern NW.js runtime already installed (use -UpdateRuntime to replace it)'
 } else {
-    $work = Join-Path ([IO.Path]::GetTempPath()) "winter-hdr-$NwjsVersion"
+    $work = Join-Path ([IO.Path]::GetTempPath()) "winter-memories-hdr-$NwjsVersion"
     New-Item -ItemType Directory -Force -Path $work | Out-Null
     $zipName = "nwjs-$NwjsVersion-win-x64.zip"
     $baseUrl = "https://dl.nwjs.io/$NwjsVersion"
